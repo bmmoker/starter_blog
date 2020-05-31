@@ -47,6 +47,25 @@ const Layout = ({ location, title, children }) => {
       </h3>
     )
   }
+  let footer
+  footer = (
+    <p
+      style={{
+        // fontFamily: `Montserrat, sans-serif`,
+        marginTop: 0,
+      }}
+    >
+      <Link
+        style={{
+          boxShadow: `none`,
+          color: `inherit`,
+        }}
+        to={`/`}
+      >
+        {title}
+      </Link>
+    </p>
+  )
   return (
     <div
       style={{
@@ -58,11 +77,7 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
+      <footer>©{footer}</footer>
     </div>
   )
 }
