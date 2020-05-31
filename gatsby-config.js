@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Blog`,
     author: {
-      name: `Bryce Moker`,
+      name: `Bryce Moker,`,
       summary: `just a man trying to explore the mind`
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
