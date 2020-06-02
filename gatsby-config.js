@@ -54,7 +54,7 @@ module.exports = {
         publishDraft: process.env.NODE_ENV !== 'production',
       },
     },*/
-    `gatsby-plugin-draft`,
+    //`gatsby-plugin-draft`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

@@ -78,7 +78,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { fields: { draft: { eq: false } } }
+
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -97,3 +97,4 @@ export const pageQuery = graphql`
     }
   }
 `
+// removing filter: { fields: { draft: { eq: false } } } from query
