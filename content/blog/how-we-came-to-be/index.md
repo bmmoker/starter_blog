@@ -25,6 +25,8 @@ Looking back, these were times where I am still thankful for as I picked up some
 
 I decided to learn more about different use cases by starting my career at a service desk. Here I would learn the invaluable skill of troubleshooting. A deterrent to most people, I find solice. There's a simple something about fixing things. Maybe it's the delayed gratification.
 
+[Link to Top](#top)
+
 ##<a name="the-middle"></a> The Middle
 
 Then there was a lull, from the web development interest. Working in tech support opened my eyes to various interests from hardware to networking to security and most in-between. I tried to dabble in most, never settling on one due to an unfocused curiosity. In this time, I was able to get an MBA, concentrating in Business Intelligence. Business Intelligence, adding to the growing list of curiosities, opened yet another avenue of opportunity. I dabbled but was never quite able to solidify deep understandings of intermediary concepts that would have propelled me to further insight.
@@ -35,6 +37,8 @@ As always, there was a brief introduction to developing a web server in/right af
 
 And that's what I did. I found some instructions to help me set it up with Ghost and Nginx. The Nginx part was fun as I recall, trying to understand the configuration. Ghost was straightforward and gave you a CMS which I installed. And then I was there. Where I had been so many times before, staring at a CMS and needing to come up with content while simultaneously limiting my scope to what the CMS offered.
 *I don't have too much opinion of Ghost, didn't spend enough time with it. For some reason when given too much GUI my curiosity dries up*
+
+[Link to Top](#top)
 
 ##<a name="and-now-were-here"></a> And Now We're Here
 
@@ -48,6 +52,8 @@ That's it, those are the reasons that I was going to lean on to drive me forward
 
 Back at it, trying to pick apart starters to see how Gatsby works. Being a Rick and Morty fan, I tested out the Chronoblog starter. Enjoyed the dark mode, but couldn't fully understand the set up. Mainly plugins and which ones were being used and where. Decided to make the switch to the Starter Blog by Kyle Mathews, why not. The set up, to me, was much cleaner to understand. less clutter since it's more basic the Chronoblog. Was able to make a few changes and am starting to understand the workflow. My latest attempt at the time of this post was a plugin installation that sort of works.
 
+[Link to Top](#top)
+
 ##<a name="the-process"></a> The Process
 
 Wasn't too bad. Did it take me a long time? Sure. Am I an expert in anyting? Nope, I would conservatively say working knowledge and growing. The ability to throw up a site so quickly (essentially installing a starter) and then, with just enough knowledge of coding principles, make some edits is satisfying. It feels good to build something. Something tangible. My experiences led me to be introduced to the big picture. The border foe the puzzle and now I'm filling out the inside. And that's from a technical standpoint.
@@ -60,3 +66,5 @@ From a personal view, a few variables in no particular order.
 * Experience: Where am I going? Who knows. If I want to write a post about pickles, I can write about pickles.
 
 That's it for now. I have my hammer and nail.
+
+[Link to Top](#top)

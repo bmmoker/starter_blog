@@ -15,7 +15,7 @@ const Layout = ({ location, title, children }) => {
           marginBottom: rhythm(1.5),
           marginTop: 0,
         }}
-      >
+      ><a name="top"></a>
         <Link
           style={{
             boxShadow: `none`,
