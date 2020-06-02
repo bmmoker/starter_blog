@@ -1,8 +1,7 @@
 ---
 title: How We Came to Be
 date: 2020-06-02
-description: "First Blog Post"
-draft: false
+description: "I'm a generalist, interested in the variety. Here's how the site came to be from introduction to dabbling to procrastinating and finally back to dabbling but full time. Learns it is ok"
 ---
 
 ## TL;DR
