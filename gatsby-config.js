@@ -48,13 +48,7 @@ module.exports = {
         ]
       }
     },
-    /*{
-      resolve: `gatsby-plugin-draft`,
-      options: {
-        publishDraft: process.env.NODE_ENV !== 'production',
-      },
-    },*/
-    //`gatsby-plugin-draft`,
+    //`gatsby-plugin-draft`, it's installed but not being used
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
