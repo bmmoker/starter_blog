@@ -13,7 +13,8 @@ type Data = {
       title: string
     }
   }
-  allMarkdownRemark: {
+  allMarkdownRemark:
+   {
     edges: {
       node: {
         excerpt: string
@@ -79,7 +80,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-
+      filter: { fields: {draft: { eq: false } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
