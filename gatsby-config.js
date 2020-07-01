@@ -37,6 +37,7 @@ module.exports = {
               maxWidth: 590
             }
           },
+            //`gatsby-plugin-draft`, it's installed but not being used
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
@@ -49,7 +50,7 @@ module.exports = {
         ]
       }
     },
-    //`gatsby-plugin-draft`, it's installed but not being used
+
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
