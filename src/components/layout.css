@@ -10,12 +10,14 @@ body {
 
 body.dark {
   -webkit-font-smoothing: antialiased;
-
+  /* for changing dark mode settings */
   --bg: #0e021c;
   --textNormal: rgba(255, 255, 255, 0.88);
   --textTitle: white;
   --textLink: yellow;
   --hr: hsla(0, 0%, 100%, 0.2);
+  /*manually added below
+    for font-family and font color */
   color: #7f15ff;
   font-family: Montserrat, sans-serif;
 }
@@ -60,7 +62,7 @@ body.dark {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #7f15ff;
 }
 
 input:focus + .slider {
