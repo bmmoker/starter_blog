@@ -53,13 +53,14 @@ const Layout = ({ location, title, children }) => {
   toggle = (
     <ThemeToggler>
   {({ theme, toggleTheme }) => (
-    <label>
+    <label class="switch">
       <input
         type="checkbox"
         onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
         checked={theme === 'dark'}
-      />{' '}
-      Dark mode
+      /><span class="slider round">
+      </span>{' '}
+      <p style= {{padding: `auto`}}>Dark mode</p>
     </label>
   )}
 </ThemeToggler>
