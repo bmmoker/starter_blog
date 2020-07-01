@@ -48,7 +48,7 @@ module.exports = {
         ]
       }
     },
-    //`gatsby-plugin-draft`, it's installed but not being used
+    `gatsby-plugin-draft`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
