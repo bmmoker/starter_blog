@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
+import { ThemeToggler } from "gatsby-plugin-dark-mode"
+import "./layout.css"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -47,6 +49,21 @@ const Layout = ({ location, title, children }) => {
       </h3>
     )
   }
+  let toggle
+  toggle = (
+    <ThemeToggler>
+  {({ theme, toggleTheme }) => (
+    <label>
+      <input
+        type="checkbox"
+        onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+        checked={theme === 'dark'}
+      />{' '}
+      Dark mode
+    </label>
+  )}
+</ThemeToggler>
+  )
   let footer
   footer = (
     <p
@@ -76,7 +93,7 @@ const Layout = ({ location, title, children }) => {
         fontFamily: `Montserrat, sans-serif`
       }}
     >
-      <header>{header}</header>
+      <header>{header}{toggle}</header>
       <main>{children}</main>
       <footer>©{footer}</footer>
     </div>
